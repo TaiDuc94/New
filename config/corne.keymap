@@ -15,7 +15,7 @@
 &lt 1 ESCAPE   &kp Q  &kp W  &kp E         &kp R     &kp T        &kp Y      &kp U       &kp I      &kp O    &kp P     &kp BSPC
 &mt LCTRL TAB  &kp A  &kp S  &kp D         &kp F     &kp G        &kp H      &kp J       &kp K      &kp L    &kp SEMI  &kp RET
 &sk LSHFT      &kp Z  &kp X  &kp C         &kp V     &kp B        &kp N      &kp M       &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
-                         &sk LEFT_ALT  &sk LGUI  &kp SPACE        &kp SPACE  &lt 1 BSPC  &lt 2 DEL
+                             &sk LEFT_ALT  &sk LGUI  &kp SPACE    &kp SPACE  &lt 1 BSPC  &lt 2 DEL
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT_BRACKET RIGHT_BRACKET &inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -24,10 +24,10 @@
         lower_layer {
             display-name = "NUMB";
             bindings = <
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans        &kp C_VOLUME_UP  &trans        &kp UP        &trans        &kp C_BRIGHTNESS_INC  &trans
-&trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans        &kp C_VOL_DN     &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_BRIGHTNESS_DEC  &trans
-&trans  &trans  &kp N1  &kp N2  &kp N3  &bt BT_CLR    &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &trans
-                        &trans  &trans  &trans        &trans           &trans        &trans
+&kp CLCK  &trans  &kp N7  &kp N8  &kp N9  &trans        &kp C_VOLUME_UP  &trans        &kp UP        &trans        &kp C_BRIGHTNESS_INC  &trans
+&trans    &kp N0  &kp N4  &kp N5  &kp N6  &trans        &kp C_VOL_DN     &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_BRIGHTNESS_DEC  &trans
+&trans    &trans  &kp N1  &kp N2  &kp N3  &bt BT_CLR    &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &trans
+                          &trans  &trans  &trans        &trans           &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
